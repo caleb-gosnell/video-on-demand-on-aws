@@ -425,6 +425,8 @@ Resources:
         BlockPublicPolicy: true
         IgnorePublicAcls: true
         RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
     Metadata:
       cfn_nag:
         rules_to_suppress:
